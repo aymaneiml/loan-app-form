@@ -105,7 +105,7 @@ export default function LoanForm() {
         </button>
       </form>
 
-      <Modal isVisible={showModal} errorMessage={errorMessage}/>
+      <Modal isVisible={showModal} errorMessage={errorMessage} information={loanInputs}/>
     </div>
   );
 }
